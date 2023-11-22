@@ -2,9 +2,10 @@ import React from 'react';
 import YoutubeItem from './YoutubeItem';
 import { YoutubeData } from '../../data';
 
-const YoutubeList = () => {
+const YoutubeList = (props) => {
     return (
     <div className="youtube-item-list">
+      {props.children}
       {YoutubeData.map((item, index) => {
         let classFromCondition = index % 2 === 0 ? "youtube-item--big" : "";
         return (
