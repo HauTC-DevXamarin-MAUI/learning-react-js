@@ -4,7 +4,7 @@ import "./App.css";
 import React from "react";
 import YoutubeList from "./components/youtube/YoutubeList";
 import Toggle from "./components/state/Toggle";
-import Button from "./button/Button";
+import Button from "./components/button/Button";
 
 export default function App() {
   const name = "Variable: HauTC Test props child";
@@ -18,7 +18,8 @@ export default function App() {
         <Toggle />
         {/* Using Sass */}
         <Button>Primary</Button>
-        <Button className="button--secondary">Secondary</Button>
+        {/* Css module */}
+        <Button secondary>Secondary</Button>
       </YoutubeList>
     </div>
   );
