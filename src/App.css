@@ -34,49 +34,43 @@ body {
   line-height: 1;
 }
 
-.youtube-item-list{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1rem;
-    margin: 1rem;
+.youtube-item-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  margin: 1rem;
 }
 
-.youtube-image
-{
-    height: 250px;
-    margin-bottom: 15px;
+.youtube-image {
+  height: 250px;
+  margin-bottom: 15px;
 }
 
-.youtube-image img 
-{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.youtube-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.youtube-footer
-{
-    display: flex;
-    align-items: flex-start;
+.youtube-footer {
+  display: flex;
+  align-items: flex-start;
 }
 
-.youtube-footer img
-{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-    flex-shrink: 0;
+.youtube-footer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  flex-shrink: 0;
 }
 
-.youtube-footer h3
-{
-    font-size: 18px;
-    margin-bottom: 10px;
+.youtube-footer h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
-.youtube-footer h4
-{
-    font-size: 14px;
-    color: #999;
+.youtube-footer h4 {
+  font-size: 14px;
+  color: #999;
 }
