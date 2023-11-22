@@ -25,7 +25,11 @@ function Card(props) {
             <span className="text-base font-light text-[#333]">@zndrson</span>
           </div>
           <div className="flex items-center gap-x-3">
-            <img src="" alt="heart" />
+            <img
+              className="w-[24px] h-[24px]"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_corazón.svg/130px-Heart_corazón.svg.png"
+              alt="heart"
+            />
             <span>256</span>
           </div>
         </div>
