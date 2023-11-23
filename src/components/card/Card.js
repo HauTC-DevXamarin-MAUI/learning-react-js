@@ -5,7 +5,6 @@ function Card(props) {
     props.primary ? "bg-primary-gradient" : "bg-secondary-gradient"
   }`;
   return (
-    //html
     <div className="relative">
       <div className="w-full rounded-lg h-[400px]">
         <img

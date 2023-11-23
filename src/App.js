@@ -5,6 +5,7 @@ import YoutubeList from "./components/youtube/YoutubeList";
 import Toggle from "./components/state/Toggle";
 import Button from "./components/button/Button";
 import Card from "./components/card/Card";
+import Photo from "./components/photo/Photo";
 
 export default function App() {
   const name = "Variable: HauTC Test props child";
@@ -23,6 +24,8 @@ export default function App() {
         {/* Using TailWindCSS */}
         <Card></Card>
         <Card primary></Card>
+        {/* using useEffect */}
+        <Photo></Photo>
       </YoutubeList>
     </div>
   );
