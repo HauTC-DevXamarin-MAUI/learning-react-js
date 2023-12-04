@@ -26,14 +26,14 @@ export function App() {
   const [type, setType] = useState("posts");
   useEffect(() => {
     document.title = title;
-    fetch("https://jsonplaceholder.typicod e.com/posts")
+    fetch("https://jsonplaceholder.typicode.com/posts")
       .then((rs) => {
         rs.json();
       })
       .then((posts) => {
         setPosts(posts);
       });
-  }, [type]);
+  }, [posts]);
   return (
     <div className="App" style={{ padding: 32 }}>
       <input
